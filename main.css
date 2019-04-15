@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* width: 100vw; */
+}
+
+body {
+    overflow-x: hidden;
+    height: 700vh;
+}
+
+@font-face {
+	font-family: semibold;
+	src: url(Hurmegeo/HurmeGeometricSans3\ SemiBold.otf) format("opentype");
+}
+
+@font-face {
+	font-family: light;
+	src: url(Hurmegeo/HurmeGeometricSans3\ Light.otf) format("opentype");
+}
+
+@font-face {
+	font-family: hbold;
+	src: url(Hurmegeo/HurmeGeometricSans3\ Bold.otf) format("opentype");
+}
+/* NAVBAR */
+.nav .elmnts ul{
+    position: fixed;
+    padding-left: 2.5rem;
+    width: 100vw;
+    display: flex;
+    transition: 0.2s ease-in-out;
+    color: black;
+    font-family: "semibold";
+    /* font-weight: 300; */
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    background-image: url(./img/logo-black.ico);
+    background-repeat: no-repeat;
+    background-position-x: 48%;
+    background-position-y: 55%;
+    background-size: 20vh;
+    /* font: inherit; */
+}
+
+.nav .elmnts ul:hover {
+    background-image: url(./img/logo-white.ico);
+    background-color: black;
+    color: white;
+}
+
+.nav .elmnts ul li {
+    list-style: none;
+    padding: 1rem 1rem 2rem 1rem;
+    cursor: pointer;
+    text-transform: uppercase; 
+    text-align: center;
+    
+}
+
+.undln {
+    transition:border 0.1s;
+}
+
+.undln:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;;
+}
+
+.undln i {
+    padding-left: 0.4rem;
+    padding-top: 1.5rem;
+    font-size: 20px;
+}
+
+.undln .flag{
+    height: 15px;
+}
+
+.cart i{
+    font-size: 26px;
+}
+
+
+.nav .elmnts ul .leftmost {
+    padding-right: 35%;
+}
+
+/* logo */
+
+/* .elmnts .logo {
+    position: fixed;
+    border: 1px solid red;
+    height: 17vh;  
+    width: 100vw;  
+} */
